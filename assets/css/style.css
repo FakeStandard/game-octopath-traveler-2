@@ -46,6 +46,7 @@ body {
 }
 
 header {
+    z-index: 0;
     height: var(--header-height);
     /* background: linear-gradient(to left, var(--dark-color), var(--white-color)); */
 }
@@ -124,6 +125,10 @@ strong {
     font-weight: var(--font-weight-bold);
 }
 
+table {
+    font-weight: normal;
+}
+
 .main-wrapper {
     /* background: var(--section-bg-color); */
     /* background: var(--white-color); */
@@ -132,6 +137,11 @@ strong {
 
 .title-group small {
     font-weight: var(--font-weight-light);
+}
+
+.accordion-body img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /*---------------------------------------
