@@ -50,7 +50,6 @@
 }
 
 body {
-    background-color: var(--white-color);
     font-family: var(--body-font);
 }
 
@@ -174,6 +173,7 @@ table {
 }
 
 .navbar {
+    background: var(--white-color);
     border-bottom: 1px solid var(--border-color);
     padding-top: 8px;
     padding-bottom: 8px;
