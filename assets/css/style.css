@@ -6,7 +6,8 @@
 
     --white-color: #ffffff;
     --dark-color: #000000;
-    --primary-color: #1d3557;
+    /* --primary-color: #1d3557; */
+    --primary-color: #1d4457;
     --minor-color: #ffcc00;
     --minor-light-color: #fce797;
     --gray-color: rgb(241, 241, 241);
@@ -15,7 +16,8 @@
     --border-color: #e0e0e5;
     --link-hover-color: rgba(185, 148, 0, 0.984);
 
-    --primary-bg-color: #1d3557;
+    /* --primary-bg-color: #1d3557; */
+    --primary-bg-color: #1d4457;
     --minor-bg-color: #ffcc00;
 
     --section-bg-color: #ececec;
