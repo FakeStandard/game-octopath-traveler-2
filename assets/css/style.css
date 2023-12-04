@@ -2,22 +2,23 @@
 
 :root {
     --header-height: 65px;
+    --body-font: "Poppins", sans-serif;
 
     --white-color: #ffffff;
-    --primary-color: #ffcc00;
-    --secondary-color: #555555;
-    --section-bg-color: #ececec;
-    --primary-bg-color: #ffcc00;
-    --custom-btn-bg-color: #a8dadc;
-    --custom-btn-bg-hover-color: #1d3557;
-    --heading-color: #1d3557;
     --dark-color: #000000;
+    --primary-color: #1d3557;
+    --minor-color: #ffcc00;
+    --minor-light-color: #fce797;
+    --gray-color: rgb(241, 241, 241);
+
     --p-color: #eeeeee;
-    /* --p-color: #717275; */
     --border-color: #e0e0e5;
     --link-hover-color: rgba(185, 148, 0, 0.984);
 
-    --body-font: "Poppins", sans-serif;
+    --primary-bg-color: #1d3557;
+    --minor-bg-color: #ffcc00;
+
+    --section-bg-color: #ececec;
 
     --h1-font-size: 74px;
     --h2-font-size: 46px;
@@ -40,6 +41,16 @@
     --font-weight-bold: 700;
 }
 
+.accordion {
+    /* --bs-accordion-color: red; */
+    --bs-accordion-bg: var(--white-color);
+    
+    --bs-accordion-border-color: var(--primary-color);
+    --bs-accordion-active-color: var(--white-color);
+    --bs-accordion-active-bg: var(--primary-color);
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
 body {
     background-color: var(--white-color);
     font-family: var(--body-font);
@@ -56,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--heading-color);
+    color: var(--primary-color);
 }
 
 h1,
@@ -130,8 +141,7 @@ table {
 }
 
 .main-wrapper {
-    /* background: var(--section-bg-color); */
-    /* background: var(--white-color); */
+    background-color: var(--gray-color);
     min-height: calc(100vh - var(--header-height));
 }
 
@@ -162,7 +172,7 @@ table {
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
-    background: var(--heading-color);
+    background: var(--primary-bg-color);
 }
 
 .navbar {
@@ -193,7 +203,7 @@ table {
 
 #sidebarMenu .nav-link.active,
 #sidebarMenu .nav-link:hover {
-    background: var(--primary-color);
+    background: var(--minor-color);
     color: var(--dark-color);
 }
 
