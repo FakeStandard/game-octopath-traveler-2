@@ -291,6 +291,20 @@ table {
     top: 8px;
 }
 
+.accordion-section {
+    padding-bottom: 1rem;
+}
+
+.npc-text,
+.solution-text,
+.reward-text {
+    font-weight: bold;
+}
+
+.reward-text {
+    color: brown;
+}
+
 /*---------------------------------------
     RESPONSIVE STYLES               
   -----------------------------------------*/
