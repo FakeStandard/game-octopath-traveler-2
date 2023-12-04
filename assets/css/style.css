@@ -297,7 +297,8 @@ table {
 
 .npc-text,
 .solution-text,
-.reward-text {
+.reward-text,
+.comment-text {
     font-weight: bold;
 }
 
