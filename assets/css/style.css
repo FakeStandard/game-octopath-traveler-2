@@ -104,7 +104,7 @@ h6 {
 }
 
 p {
-    color: var(--p-color);
+    /* color: var(--p-color); */
     font-size: var(--p-font-size);
     font-weight: var(--font-weight-light);
 }
