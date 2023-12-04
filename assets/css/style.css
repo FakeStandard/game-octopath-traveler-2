@@ -42,9 +42,7 @@
 }
 
 .accordion {
-    /* --bs-accordion-color: red; */
     --bs-accordion-bg: var(--white-color);
-    
     --bs-accordion-border-color: var(--primary-color);
     --bs-accordion-active-color: var(--white-color);
     --bs-accordion-active-bg: var(--primary-color);
