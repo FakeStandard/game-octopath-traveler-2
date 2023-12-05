@@ -309,6 +309,20 @@ table {
     color: brown;
 }
 
+.location-text {
+    text-decoration: underline;
+}
+
+.role-name-text {
+    font-weight: bold;
+    background-color: var(--minor-bg-color);
+    text-decoration: underline;
+}
+
+.component-text {
+    color: red;
+}
+
 /*---------------------------------------
     RESPONSIVE STYLES               
   -----------------------------------------*/
