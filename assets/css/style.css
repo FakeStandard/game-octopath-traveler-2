@@ -303,6 +303,8 @@ table {
 .reward-text,
 .comment-text {
     font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .reward-text {
