@@ -303,8 +303,8 @@ table {
 .reward-text,
 .comment-text {
     font-weight: bold;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .reward-text {
@@ -323,6 +323,11 @@ table {
 
 .component-text {
     color: red;
+}
+
+.break-text {
+    font-weight: bold;
+    background:greenyellow;
 }
 
 /*---------------------------------------
